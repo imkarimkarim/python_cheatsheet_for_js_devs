@@ -2,6 +2,13 @@
 i will add to this as i go....
 contributions are welcomed 🌻
 
+---
+
 `JS` --> ```Python```
 
-`console.log("")` -->  ```print("")```
+---
+
+`console.log("")` --> ```print("")```
+
+`x.toString() / String(x)` --> ```str(x)```
+
