@@ -1,5 +1,6 @@
-# python_cheatsheet_for_js_developers
-Python cheatsheet for JavaScript developers. i will add to this as i go....
+# Python Cheatsheet for JS Developers
+i will add to this as i go....
+contributions are welcomed 🌻
 
 `JS` --> ```Python```
 
