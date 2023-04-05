@@ -18,13 +18,11 @@ contributions are welcomed 🌻
 
 `null` --> ```None```
 
-`null` --> ```None```
-
 `true` --> ```True```
 
 `false` --> ```False```
 
-`x.length` --> ```len```
+`x.length` --> ```len(x)```
 
 ## Loops
 
@@ -63,7 +61,7 @@ Py:
 
 ```python
 class Dog:
-    # Contractor
+    # constructor
     def __init__(self, name):
         self.name = name
 
