@@ -4,11 +4,18 @@ contributions are welcomed 🌻
 
 ---
 
+## virtualenv (highly recommended)
+
+python -m venv env_name  
+source env_name/bin/activate
+
+---
+
 `JS` --> ```Python```
 
 ---
 
-# General
+## General
 
 `console.log("")` --> ```print("")```
 
@@ -85,4 +92,17 @@ if __name__ == "__main__":
     d = Dog(str(input("name your dog: ")))
     print((d.get_name()))
 
+```
+
+## command line input args
+
+age = input('how old are you bitch?!: ')
+
+## try catch
+
+```python
+try:
+    # code...
+except Exception:
+    # handle error...
 ```
