@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
 ```
 
-## command line input args
+## user input
 
 ```python
 age = input('how old are you bitch?!: ')
