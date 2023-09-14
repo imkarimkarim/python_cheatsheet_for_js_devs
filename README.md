@@ -2,7 +2,16 @@
 i will add to this as i go....
 contributions are welcomed 🌻
 
----
+## Table of Contents
+
+* [virtualenv](#virtualenv-(highly-recommended))
+* [General](#General)
+* [Loops](#Loops)
+  * [forEach](#forEach)
+* [Null Checking](#Null-Checking)
+* [OOP](#OOP)
+* [User Input](#User-Input)
+* [Try Catch](#Try-Catch)
 
 ## virtualenv (highly recommended)
 
@@ -94,13 +103,13 @@ if __name__ == "__main__":
 
 ```
 
-## user input
+## User Input
 
 ```python
 age = input('how old are you bitch?!: ')
 ```
 
-## try catch
+## Try Catch
 
 ```python
 try:
