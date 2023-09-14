@@ -96,7 +96,9 @@ if __name__ == "__main__":
 
 ## command line input args
 
+```python
 age = input('how old are you bitch?!: ')
+```
 
 ## try catch
 
