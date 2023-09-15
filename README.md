@@ -12,6 +12,7 @@ contributions are welcomed 🌻
 * [OOP](#OOP)
 * [User Input](#User-Input)
 * [Try Catch](#Try-Catch)
+* [Django](#Django)
 
 ## virtualenv (highly recommended)
 
@@ -117,3 +118,27 @@ try:
 except Exception:
     # handle error...
 ```
+
+## Django
+
+creating a [venv](#virtualenv-(highly-recommended)) at first is recommended...
+
+```bash
+# setup
+pip install django
+django-admin startproject project_name
+cd project_name
+python manage.py migrate
+python manage.py runserver
+
+# create a user to access admin panel
+python manage.py createsuperuser
+
+# add a new app(feature) to the project
+python manage.py startapp hello
+
+```
+
+### good links
+
+* [Django not in 100 Seconds | Django for Beginners](https://youtu.be/0gT0xJ5M6Fs)
