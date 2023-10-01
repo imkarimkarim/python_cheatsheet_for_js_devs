@@ -1,4 +1,5 @@
 # Python Cheatsheet for JS Developers
+
 i will add to this as i go....
 contributions are welcomed 🌻
 
@@ -41,6 +42,17 @@ source env_name/bin/activate
 
 `x.length` --> ```len(x)```
 
+```py
+# python dictionary(js object)
+student = {
+    'name': 'John Doe',
+    'age': 20,
+    'major': 'Computer Science',
+    'gpa': 3.8,
+}
+name = student["name"]
+```
+
 ## Loops
 
 ### forEach
@@ -72,12 +84,12 @@ JS:
 
 ```js
 class ClassMates{
-	constructor(name,age){
-    	this.name=name;
-      	this.age=age;
+ constructor(name,age){
+     this.name=name;
+       this.age=age;
     }
-  	displayInfo(){
-    	return this.name + "is " + this.age + " years old!";
+   displayInfo(){
+     return this.name + "is " + this.age + " years old!";
     }
 }
 
