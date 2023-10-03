@@ -156,3 +156,5 @@ python manage.py startapp hello
 * [Django not in 100 Seconds | Django for Beginners](https://youtu.be/0gT0xJ5M6Fs)
 
 * [Python Django Explained In 8 Minutes](https://youtu.be/0sMtoedWaf0)
+
+* <https://www.django-rest-framework.org/tutorial/quickstart/>
