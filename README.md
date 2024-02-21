@@ -7,6 +7,7 @@ contributions are welcomed 🌻
 
 * [virtualenv](#virtualenv-(highly-recommended))
 * [General](#General)
+* [Data Types](#Data-Types)
 * [Loops](#Loops)
   * [forEach](#forEach)
 * [Null Checking](#Null-Checking)
@@ -56,6 +57,91 @@ name = student["name"]
 def even_or_odd(number):
     return "Even" if number % 2 == 0 else "Odd"
 ```
+find a character index in string / find a value in array
+```python
+index = string.find(char)
+```
+
+## Data Types
+
+```python
+Python provides several built-in data types that allow you to store and manipulate data. Here are some of the most commonly used data types with examples:
+
+1. Integer (int): An integer is a whole number, both positive and negative, without a decimal point.
+   Example:
+   ```python
+   x = 10
+   y = -5
+   print(type(x))  # Output: <class 'int'>
+   print(type(y))  # Output: <class 'int'>
+   ```
+
+2. Float: A float is a floating-point number, which is a number with a decimal point.
+   Example:
+   ```python
+   x = 3.14
+   y = -2.5
+   print(type(x))  # Output: <class 'float'>
+   print(type(y))  # Output: <class 'float'>
+   ```
+
+3. String (str): A string is a sequence of characters enclosed in single or double quotes.
+   Example:
+   ```python
+   name = "John"
+   age = '30'
+   print(type(name))  # Output: <class 'str'>
+   print(type(age))  # Output: <class 'str'>
+   ```
+
+4. Boolean (bool): A boolean represents one of two values: True or False.
+   Example:
+   ```python
+   x = True
+   y = False
+   print(type(x))  # Output: <class 'bool'>
+   print(type(y))  # Output: <class 'bool'>
+   ```
+
+5. List: A list is an ordered collection of items enclosed in square brackets.
+   Example:
+   ```python
+   fruits = ['apple', 'banana', 'orange']
+   numbers = [1, 2, 3, 4, 5]
+   print(type(fruits))  # Output: <class 'list'>
+   print(type(numbers))  # Output: <class 'list'>
+   ```
+
+6. Tuple: A tuple is an ordered, immutable collection of items enclosed in parentheses.
+   Example:
+   ```python
+   coordinates = (1, 2, 3)
+   colors = ('red', 'green', 'blue')
+   print(type(coordinates))  # Output: <class 'tuple'>
+   print(type(colors))  # Output: <class 'tuple'>
+   ```
+
+7. Set: A set is an unordered collection of unique items enclosed in curly braces.
+   Example:
+   ```python
+   unique_fruits = {'apple', 'banana', 'orange'}
+   prime_numbers = {2, 3, 5, 7}
+   print(type(unique_fruits))  # Output: <class 'set'>
+   print(type(prime_numbers))  # Output: <class 'set'>
+   ```
+
+8. Dictionary (dict): A dictionary is an unordered collection of key-value pairs enclosed in curly braces.
+   Example:
+   ```python
+   person = {'name': 'John', 'age': 30, 'city': 'New York'}
+   countries = {'USA': 'Washington DC', 'Canada': 'Ottawa', 'Mexico': 'Mexico City'}
+   print(type(person))  # Output: <class 'dict'>
+   print(type(countries))  # Output: <class 'dict'>
+   ```
+
+These are the basic data types in Python. You can perform various operations on these data types, such as concatenation, indexing, slicing, and more.
+```
+
 
 ## Loops
 
